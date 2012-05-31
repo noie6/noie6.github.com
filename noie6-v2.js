@@ -20,6 +20,6 @@ function showforie6(){
 		</div>\
 	</div>";
 	var bodyElement = document.body;
-	bodyElement.innerHTML = str + bodyElement.innerHTML;
+	bodyElement.innerHTML = str;
 }
 setTimeout(showforie6,1000);
